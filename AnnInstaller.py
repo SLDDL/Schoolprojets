@@ -65,4 +65,5 @@ file_path = os.path.join(current_directory, 'annuaire.csv')
 with open(file_path, 'w') as file:
     pass
 
-urllib.request.urlretrieve("https://github.com/SLDDL/Schoolprojets/blob/main/Annusaire3000.py",os.path.join(current_directory, 'Annusaire3000.py'))
+urllib.request.urlretrieve("https://raw.githubusercontent.com/SLDDL/Schoolprojets/main/Annusaire3000.py",os.path.join(current_directory, 'Annusaire3000.py'))
+
